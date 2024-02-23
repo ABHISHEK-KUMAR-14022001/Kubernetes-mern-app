@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: webapp
+      - name: webapp-express
         image: mongo-express:latest
         ports:
         - containerPort: 8081
